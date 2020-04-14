@@ -1,2 +1,6 @@
 #!/usr/bin/env ruby
 #Tells computer what language we are coding in
+
+require_relative "../lib/soundcloudproject.rb"
+
+CLI.new.start

@@ -48,3 +48,27 @@ Everyone interacting in the Soundcloudproject project's codebases, issue tracker
 #Used the following youtube video to set up my CLI
 
 https://www.youtube.com/watch?v=W7Djc2IonRI&feature=youtu.be
+  Steps I took:
+    In terminal:
+      1. type 'bundle gem {name}'
+      2. open file
+
+      1. touch 'bin/{name}'
+          Test it by going into file and adding a shabang (#!/usr/bin/env ruby)
+          Add puts "hello world"
+          run ruby bin/{name} -- should see hello world
+
+      1. git init
+      2. git status
+      3. ls
+      4. ls -a
+      5. git add .
+      6. git status
+      7. git commit - m "initial commit"
+
+      1. touch lib/cli.rb
+      2. create CLI class and start instance method.
+      3. Put in require_relative/require
+      4. chmod 777 bin/soundcloud
+        run bin/soundcloud
+      5. commit to git
